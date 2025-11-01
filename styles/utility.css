@@ -1,0 +1,9 @@
+.container {
+    /*Largura mobile primeiro*/
+    --max-width: 375px;
+    width: min(var(--max-width), 100% - var(--px-lg) * 2);
+                                /*mantem como minimo padrão 375px preencchendo 100% de espaço*/
+                                 /*quando menor que 375px vai fica mantendo 100% - 24vezez2 que é na verdade 24X2 ou 22*2  */
+    border: solid violet;
+    margin-inline: auto;
+}
